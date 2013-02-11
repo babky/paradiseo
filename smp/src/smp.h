@@ -41,6 +41,7 @@ Contact: paradiseo-help@lists.gforge.inria.fr
 #include <policyElement.h>
 #include <islandNotifier.h>
 #include <notifier.h>
+#include <multistart.h>
 
 // Topologies
 #include <topology/topology.h>
