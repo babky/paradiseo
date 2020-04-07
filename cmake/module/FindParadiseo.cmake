@@ -153,17 +153,7 @@ endforeach()
 
 # handle result
 if(PARADISEO_FOUND)
-    message(STATUS "Found ParadisEO includes :")
-    message(${EO_INCLUDE_DIR})
-    message(${EDO_INCLUDE_DIR})
-    message(${MO_INCLUDE_DIR})
-    message(${MOEO_INCLUDE_DIR})
-    if(SMP_FOUND)
-        message(${SMP_INCLUDE_DIR})
-    endif()
-    if(PEO_FOUND)
-        message(${PEO_INCLUDE_DIR})
-    endif()
+    message(STATUS "Found ParadisEO includes: ${PARADISEO_INCLUDE_DIR}")
 else()
     # include directory or library not found
     message(FATAL_ERROR "Could NOT find ParadisEO (missing : ${FIND_PARADISEO_MISSING})")

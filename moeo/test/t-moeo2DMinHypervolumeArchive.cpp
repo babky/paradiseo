@@ -41,7 +41,7 @@
 #include <moeo>
 #include <cassert>
 
-#include<archive/moeo2DMinHyperVolumeArchive.h>
+#include<archive/moeo2DMinHypervolumeArchive.h>
 
 //-----------------------------------------------------------------------------
 
